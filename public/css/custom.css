@@ -1,0 +1,133 @@
+
+.fundo-opacidade{
+	background-color:rgba(0, 0, 0, 0.06)
+}
+
+.titulo{
+	text-align: center;
+	text-shadow: 0 0 10px black;
+}
+
+.alerta{
+	margin-top: 10px;
+}
+
+.preeche{
+	border: 10px;
+}
+.fundo{
+	
+	background-image: url("/img/fundo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	
+}
+
+.box{
+	text-align: center;
+  }
+  .box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+  .box input[type = "text"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 5px auto 20px auto;
+	text-align: center;
+	border: 2px solid #F8F8FF;
+	font-weight: bold;
+	padding: 8px 15px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	transition: 0.10s;
+  }
+  .box input[type = "text"]:focus{
+	border-color:black;
+	font-weight: bold;
+	width: 210px;
+	box-shadow: 0 0 10px black;
+  }
+  .box a, .box button[type="submit"]{
+	border:0;
+	background: #F8F8FF;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #F8F8FF;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 10px;
+	transition: 0.10s;
+	cursor: pointer;
+  }
+  .box a:hover, .box button[type="submit"]:hover{
+	background: white;
+	color:black;
+	box-shadow: 0 0 15px black;
+	text-decoration: none;
+  }
+
+
+  .topo{
+	  background-color: #208738;
+	  margin-top: 12px;
+  }
+  
+
+  .sombra{
+	box-shadow: 12px 12px 6px black;
+  }
+
+  .sombra-disciplina{
+	  box-shadow: 6px 6px 6px black;
+  }
+
+  .menu a:hover{
+	border: 0;
+	border-bottom: 2px solid #F8F8FF ;
+	transition: 0.10s;
+	padding-top: 5px;
+  }
+
+  .menu a:active{
+	border: 0;
+	border-bottom: 2px solid #F8F8FF ;
+	transition: 0.10s;
+	padding-top: 5px;
+  }
+  
+  .alinhamento{
+	align-items: center;
+	justify-content: center;
+	display:flex;
+	margin:10%;
+  }
+
+  .cartao{
+	  border: 1;
+	  border: 2px solid white;
+	  border-inline-color: red;
+	  width:500px;
+	  height: 600px;
+
+  }
+
+  .texto-disciplina{
+	  font-size: 100px;
+	  text-align: center;
+	  font-weight: bold;
+  }
+
+  .texto-disciplina span h5{
+	border-top: 2px solid white;
+	padding-top: 1px;
+	font-size: 90px;
+  }
